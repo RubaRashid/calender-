@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div .facebook {
+    border-radius: 25px;
+
+}
+
+a {
+    font-weight: bolder;
+}
+
+li>a:active {
+    color: black;
+}
+
+.instagram {
+    background: rgb(247, 229, 7);
+    background: linear-gradient(0deg, rgba(247, 229, 7, 1) 0%, rgba(255, 0, 0, 1) 33%, rgba(254, 79, 221, 1) 71%, rgba(255, 27, 223, 1) 87%, rgba(104, 29, 196, 1) 99%);
+    border-radius: 5px;
+}
+.linkedin , .twiter{
+    border-radius: 5px;
+}
+
+.navbar-new{
+    background-color: rgb(0, 0, 53) !important;
+  
+}
+
+td , th{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.months{
+    background-color: rgb(0, 0, 53) ;
+}
+
+.table-calender{
+    background-color: rgb(188, 227, 243);
+}
+
+td:hover{
+
+    background-color: rgb(0, 0, 53) ;
+    color:rgb(188, 227, 243) ;
+}
+li.month-name{
+    padding: 0.4rem;
+    margin: 0.35rem;
+    padding:0.2rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+li.month-name:hover{
+    background-color:rgb(188, 227, 243);
+    color: black !important;
+}
+
+
+.text-month:hover{
+    color:rgb(0, 0, 53)  ;
+}
+
+.son{
+    color:rgb(188, 227, 243) ;
+    font-size: 14rem;
+}
